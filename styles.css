@@ -1,1 +1,80 @@
 /* Styles for the Advanced Markup assignment. */
+nav ul li{
+  display:inline;
+  padding:150px;
+
+}
+nav a {
+  text-decoration:none;
+  color:#433F13;
+ 
+}
+nav a:hover {
+  background-color: #FFFF00;
+}
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+.top-nav{
+  background-color:#d0d8e5;
+  padding:10px;
+  
+}
+.bottom-nav{
+   background-color:#d0d8e5;
+   margin-top:50px;
+}
+
+h1 {
+  text-align:center;
+  font-family:  Palatino Linotype;
+}
+h2{
+  text-align:center;
+}
+#sidebar {
+  float:right;
+  width:220px;
+  margin:10px;
+  border:solid;
+  padding-left:15px;
+  background-color:#EBDF5C;
+}
+
+.poem {
+  list-style-type:none;
+  line-height:1.8;
+  font-family: Palatino Linotype;
+  font-style:italic;
+}
+
+.bio-photo {
+  float:left;
+  width:50px;
+  padding-left:20px;
+  width:22%;
+  height:auto;
+  font-style:italic;
+  font-size:12px;
+}
+
+table, th, td #selected_works {
+  border-collapse: collapse;
+  background-color:#EBDF5C;
+  text-align:left;
+  padding-top:10px;
+  font-family:Helvetica, Arial, sans-serif;
+ 
+}
+  
+th,td{
+  padding:10px;
+  border: 1px solid #8c8c8c;
+  
+}
+
+caption{
+  margin-bottom:10px;
+}
